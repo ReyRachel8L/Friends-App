@@ -14,6 +14,7 @@
 		D904CE1E287924C40089CCCF /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = D904CE1D287924C40089CCCF /* Friend.swift */; };
 		D904CE20287925980089CCCF /* FriendDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D904CE1F287925980089CCCF /* FriendDetailView.swift */; };
 		D904CE22287928F40089CCCF /* FriendManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D904CE21287928F40089CCCF /* FriendManager.swift */; };
+		D9EF96F12879322B00F81646 /* NewFriendAbility .swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EF96F02879322B00F81646 /* NewFriendAbility .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		D904CE1D287924C40089CCCF /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 		D904CE1F287925980089CCCF /* FriendDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendDetailView.swift; sourceTree = "<group>"; };
 		D904CE21287928F40089CCCF /* FriendManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendManager.swift; sourceTree = "<group>"; };
+		D9EF96F02879322B00F81646 /* NewFriendAbility .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NewFriendAbility .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 		2F35293F28792357009085BE = {
 			isa = PBXGroup;
 			children = (
+				D9EF96F02879322B00F81646 /* NewFriendAbility .swift */,
 				2F35294A28792357009085BE /* SAP Friends App */,
 				2F35294928792357009085BE /* Products */,
 			);
@@ -148,6 +151,7 @@
 			files = (
 				D904CE22287928F40089CCCF /* FriendManager.swift in Sources */,
 				D904CE1E287924C40089CCCF /* Friend.swift in Sources */,
+				D9EF96F12879322B00F81646 /* NewFriendAbility .swift in Sources */,
 				2F35294E28792357009085BE /* ContentView.swift in Sources */,
 				2F35294C28792357009085BE /* SAP_Friends_AppApp.swift in Sources */,
 				D904CE20287925980089CCCF /* FriendDetailView.swift in Sources */,

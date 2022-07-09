@@ -43,7 +43,6 @@
 		2F35293F28792357009085BE = {
 			isa = PBXGroup;
 			children = (
-				D9EF96F02879322B00F81646 /* NewFriendAbility .swift */,
 				2F35294A28792357009085BE /* SAP Friends App */,
 				2F35294928792357009085BE /* Products */,
 			);
@@ -60,6 +59,7 @@
 		2F35294A28792357009085BE /* SAP Friends App */ = {
 			isa = PBXGroup;
 			children = (
+				D9EF96F02879322B00F81646 /* NewFriendAbility .swift */,
 				2F35294B28792357009085BE /* SAP_Friends_AppApp.swift */,
 				2F35294D28792357009085BE /* ContentView.swift */,
 				D904CE1D287924C40089CCCF /* Friend.swift */,

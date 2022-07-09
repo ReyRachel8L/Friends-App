@@ -20,6 +20,7 @@ struct ContentView: View {
     ]
     
     @State var friendManager = FriendManager()
+    @State var isNewFriendSheetShown = false;
     
     var body: some View {
         NavigationView {
@@ -47,14 +48,23 @@ struct ContentView: View {
             }
             .navigationTitle("Friends")
             .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing){
+                    Button{
+                        isNewFriendSheetShown = true;
+                    } label: {
+                        Image(systemName: "plus.circle")
+                    }
+                }
                 ToolbarItem(placement: .navigationBarLeading) {
                     EditButton()
                 }
             }
         }
+        .sheet(isPresented: $isNewFriendSheetShown){
+            NewFriendAbility(names: $friendManager.friends)
+        }
     }
 }
-x
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()

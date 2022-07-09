@@ -19,9 +19,39 @@ struct ContentView: View {
         Friend(name: "Zach", description: "zach", notes: "zach")
     ]
     
+    @State var friendManager = FriendManager()
+    
     var body: some View {
-        
-        Text("")
+        NavigationView {
+            List {
+                ForEach($friendManager.friends) { $friend in
+                    NavigationLink {
+                        FriendDetailView(friend: $friend)
+                    } label: {
+                        VStack (alignment: .leading) {
+                            Text(friend.name)
+                            if !friend.description.isEmpty {
+                                Text(friend.description)
+                                    .font(.caption)
+                                    .foregroundColor(.gray)
+                            }
+                        }
+                    }
+                }
+                .onDelete { indexSet in
+                    friendManager.friends.remove(atOffsets: indexSet)
+                }
+                .onMove { originalOffset, newOffset in
+                    friendManager.friends.move(fromOffsets: originalOffset, toOffset: newOffset)
+                }
+            }
+            .navigationTitle("Friends")
+            .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    EditButton()
+                }
+            }
+        }
     }
 }
 
@@ -30,4 +60,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-

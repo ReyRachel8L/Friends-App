@@ -24,7 +24,8 @@ struct NewFriendAbility: View {
                 .padding()
             
             Button("Save") {
-                names.append(Friend(name: nameText, description: descriptionText))
+                let friend = Friend(name: nameText, description: descriptionText)
+                names.append(friend)
                 dismiss()
             }
         }

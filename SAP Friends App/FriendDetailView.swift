@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct FriendDetailView: View {
-    @Binding var friend:Friend
+    @Binding var friend: Friend
     
     var body: some View {
         VStack{

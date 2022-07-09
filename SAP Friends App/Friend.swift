@@ -1,6 +1,7 @@
 import Foundation
-struct Friend: Identifiable,Codable{
-    let id = UUID()
+
+struct Friend: Identifiable, Codable{
+    var id = UUID()
     
     var name: String
     var description: String

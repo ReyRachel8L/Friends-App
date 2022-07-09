@@ -12,6 +12,7 @@
 		2F35295028792359009085BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F35294F28792359009085BE /* Assets.xcassets */; };
 		2F35295328792359009085BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F35295228792359009085BE /* Preview Assets.xcassets */; };
 		D904CE1E287924C40089CCCF /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = D904CE1D287924C40089CCCF /* Friend.swift */; };
+		D904CE20287925980089CCCF /* FriendDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D904CE1F287925980089CCCF /* FriendDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		2F35294F28792359009085BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F35295228792359009085BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D904CE1D287924C40089CCCF /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		D904CE1F287925980089CCCF /* FriendDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				2F35294B28792357009085BE /* SAP_Friends_AppApp.swift */,
 				2F35294D28792357009085BE /* ContentView.swift */,
 				D904CE1D287924C40089CCCF /* Friend.swift */,
+				D904CE1F287925980089CCCF /* FriendDetailView.swift */,
 				2F35294F28792359009085BE /* Assets.xcassets */,
 				2F35295128792359009085BE /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 				D904CE1E287924C40089CCCF /* Friend.swift in Sources */,
 				2F35294E28792357009085BE /* ContentView.swift in Sources */,
 				2F35294C28792357009085BE /* SAP_Friends_AppApp.swift in Sources */,
+				D904CE20287925980089CCCF /* FriendDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

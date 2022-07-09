@@ -8,9 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var friends = [
+        
+        Friend(name: "Rachel", description: "rachel", notes: "rachel"),
+        Friend(name: "Angus", description: "angus", notes: "angus"),
+        Friend(name: "Aaron", description: "aaron", notes: "aaron"),
+        Friend(name: "Daryl", description: "daryl", notes: "daryl"),
+        Friend(name: "Kate Lynn", description: "kate lynn", notes: "kate lynn"),
+        Friend(name: "Zach", description: "zach", notes: "zach")
+    ]
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        Text("")
     }
 }
 
@@ -19,3 +30,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+

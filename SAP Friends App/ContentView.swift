@@ -18,6 +18,11 @@ struct ContentView: View {
         Friend(name: "Kate Lynn", description: "kate lynn", notes: "kate lynn"),
         Friend(name: "Zach", description: "zach", notes: "zach")
     ]
+    
+    var body: some View {
+        
+        Text("")
+    }
 }
 
 struct ContentView_Previews: PreviewProvider {

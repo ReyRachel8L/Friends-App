@@ -19,7 +19,7 @@ struct ContentView: View {
         Friend(name: "Zach", description: "zach", notes: "zach")
     ]
     
-    @State var friendManager = FriendManager()
+    @ObservedObject var friendManager = FriendManager()
     @State var isNewFriendSheetShown = false;
     
     var body: some View {
